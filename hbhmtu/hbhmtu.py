@@ -1,3 +1,13 @@
+#
+# This packet generator is based on the hop by hop options tests from the file
+# test_hbh.py from the vpp project, as implemented by Ole Troan. There was no
+# license attached to this file, but VPP is license as Apache 2.0 as seen in
+# the license file in this github mirror
+# https://github.com/vpp-dev/vpp/blob/master/LICENSE
+#
+# I have stripped out the test suite stuff so that this is a standalone packet
+# generator for hbh mtu.
+#
 #!/usr/bin/env python
 """IPv6 HBH MTU record"""
 
